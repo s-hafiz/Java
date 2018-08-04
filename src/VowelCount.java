@@ -8,7 +8,6 @@ public class VowelCount
 {
     private int countVowel(String text)
     {
-        //Variable to count vowel
         int count=0;
         for (char Char:text.toCharArray()) //Loop for checking each and every character
         {
